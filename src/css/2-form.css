@@ -1,7 +1,7 @@
 .feedback-form {
   display: flex;
   flex-direction: column;
-  gap: 12px; 
+  gap: 12px;
   width: 408px;
   padding: 24px;
 }
@@ -18,6 +18,11 @@
   box-sizing: border-box;
   border: 1px solid #ddd;
   border-radius: 4px;
+}
+
+.feedback-form-item:hover,
+.feedback-form-item:focus {
+  border-color: #000;
 }
 
 .form-button {
